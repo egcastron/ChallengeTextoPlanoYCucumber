@@ -54,6 +54,12 @@ public class MainReto1 {
         return info;
     }
 
+    public String inicialesNombres(String asociado){
+        String[] info = asociado.split("");
+        String iniciales = info[0]+info[1];
+        return iniciales;
+    }
+
     public String[] fechaSeparada(String fecha){
         String[] fechaSplit = fecha.split("/");
         return fechaSplit;

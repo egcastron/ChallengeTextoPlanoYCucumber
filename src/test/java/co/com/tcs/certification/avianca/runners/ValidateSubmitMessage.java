@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/way2automation.feature",
         glue = "co.com.tcs.certification.avianca.stepdefinitions",
-        tags = "@Sc1",
+//        tags = "@Sc1",
         snippets = SnippetType.CAMELCASE
 )
 public class ValidateSubmitMessage {
